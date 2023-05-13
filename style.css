@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+.nav-bar .input-field {
+  margin-left: 700px;
+  top: 8px;
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #111;
+  background-color: rgba(109, 109, 110, 0.1);
+  border-radius: 5px;
+  position: fixed;
+}
+.nav-bar .input-field::placeholder {
+  color: #fff;
+
+  font-family: monospace;
+}
+.nav-bar {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(109, 109, 110, 0);
+  position: fixed;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.nav-bar:hover {
+  background-color: rgba(109, 109, 110, 0.4);
+}
+.nav-bar i {
+  margin-left: 730px;
+  margin-top: 9px;
+  align-items: flex;
+  flex-direction: column;
+}
+.icon {
+  width: 100%;
+  height: 40px;
+  margin-left: -30px;
+  margin-top: -8px;
+  align-items: center;
+}
+.bellIcon {
+  margin-left: 400px;
+}
+.nav-bar .logo {
+  top: 0px;
+  position: fixed;
+  width: 100px;
+  height: 50px;
+  left: 10px;
+  cursor: pointer;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.banner h1 {
+  margin-left: 80px;
+  margin-top: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+.nav-bar .avatar {
+  width: 30px;
+  height: 28px;
+  position: fixed;
+  top: 8px;
+  cursor: pointer;
+  right: 20px;
+  border-radius: 8px;
+}
+
+.banner .btn {
+  width: 80px;
+  height: 40px;
+  background: #fff;
+  color: #111;
+  border-radius: 8px;
+  border: none;
+  font-family: monospace;
+  margin-top: 200px;
+  margin-left: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.secondBtn {
+  width: 80px;
+  height: 40px;
+  background: rgba(109, 109, 110, 0.7);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-family: monospace;
+  margin-top: 200px;
+  margin-left: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 10px;
+}
+.secondBtn:hover {
+  background-color: red;
+  color: #111;
+}
+.banner .btn:hover {
+  background: rgba(109, 109, 110, 0.7);
+  color: #fff;
+  font-size: 20px;
+}
+.banner .movie-info {
+  margin-top: 80px;
+  font-family: "poppins", sans-serif;
+  font-size: 13px;
+  margin-left: 40px;
+}
+@media (max-width: 443px) {
+  footer {
+    width: 100%;
+    height: 30px;
+  }
+  .movie img {
+    width: 40px;
+    height: 50px;
+  }
+  .nav-bar .input-field {
+    margin-left: 150px;
+  }
+  .banner {
+    width: 300px;
+    height: 500px;
+    color: #111;
+  }
+  .avatar {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .nav-bar .input-field {
+    margin-left: 140px;
+    width: 40px;
+  }
+}
+.movie {
+  display: flex;
+  flex-direction: row;
+}
+.movie img {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-size: cover;
+}
+.movie img:hover {
+  transform: translateY(-16px);
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+}
+footer i {
+  color: #fff;
+}
